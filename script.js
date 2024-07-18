@@ -73,7 +73,7 @@ function submitGuess() {
 
     if (guess === solution) {
         endGame('You guessed the word!');
-    } else if (currentRow === 6) {
+    } else if (currentRow === 7) {
         endGame('Game over! The word was ' + solution);
     }
 }
