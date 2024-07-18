@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Wordle Copycat </title>
+    <link rel="stylesheet" href="style.CSS">
+    <script src="https://kit.fontawesome.com/08840a3df3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="topbar">
+            <h3> Wordle Copycat </h3>
+        </div>
+    </div>
+    <div id="instr">
+        <h3> Instructions </h3>
+        <p> This is a copycat of the New York Times game Wordle. Enter a 6-letter word to begin. 
+            <br> The words do not have repeating letters. Every character is unique.
+            <br> <br> If the letter is present and in the correct place, the tile will turn green. If the word is present but not in the correct place, it will turn yellow. If the letter is not correct, it will turn red. 
+            <br> <br> You have 7 guesses to correctly guess the word! </p>
+    </div>
+    <div class="container">
+        <div class="letter-box" id="gameboard">
+            <div class="row">
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+            </div>
+            <div class="row">
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+            </div>
+            <div class="row">
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+            </div>
+            <div class="row">
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+            </div>
+            <div class="row">
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+            </div>
+            <div class="row">
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+            </div>
+            <div class="row">
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+            </div>
+        </div>
+        <input type="text" id="guess" maxlength="6">
+        <button class="btn" onclick="submitGuess()"> Submit </button>
+        <button id="play-again" onclick="playAgain()" style="display: none;">Play Again</button>
+    </div>
+    <script src="script.js"></script>
+    <div class="copyright">
+        <p> Copyright © Yevgenia Minchuk 2024 </p>
+    </div>
+</body>
+</html>
