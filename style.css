@@ -139,7 +139,8 @@ nav .fa-solid {
 }
 .copyright {
     text-align: center;
-    position: fixed;
+    display: block;
+    margin-top: 10em;
     bottom: 0;
     width: 100%;
     background-color: #2d2d2d;
