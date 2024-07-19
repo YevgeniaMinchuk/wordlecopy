@@ -134,6 +134,7 @@ nav .fa-solid {
 #play-again:hover {
     background-color: rgb(102, 189, 102);
     color: #fff;
+    border-color: #fff;
     font-size: 20px;
     transition-duration: .2s;
 }
