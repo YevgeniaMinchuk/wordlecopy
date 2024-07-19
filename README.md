@@ -42,15 +42,13 @@ wordle-copycat/
 
 │
 
-├── images/
-
-│   └── logo.png
-
 ├── index.html
+
+├── script.js
 
 ├── style.css
 
-└── script.js
+└── words.txt
 
 ### Game Logic
 - **submitGuess()**: Function to handle user guesses, providing feedback on letter positions.
