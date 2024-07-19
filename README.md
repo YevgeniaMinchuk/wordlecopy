@@ -39,11 +39,17 @@ Visit the website at https://wordle-yevgeniam.netlify.app
 
 ## File Structure
 wordle-copycat/
+
 │
+
 ├── images/
+
 │   └── logo.png
+
 ├── index.html
+
 ├── style.css
+
 └── script.js
 
 ### Game Logic
