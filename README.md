@@ -23,14 +23,16 @@ Visit the website at https://wordle-yevgeniam.netlify.app
    ```bash
    git clone https://github.com/yourusername/wordle-copycat.git
 2. Navigate to the project directory
-   cd wordle-copycat
+
+cd wordle-copycat
 
 ## Usage
 1. Open the 'index.html' file in your web browser:
-   open index.html
-2. Enter a 6-letter guess and press 'Enter' or click the 'Submit' button
-3. Continue guessing based on the feedback until you guess the word or run out of attempts
-4. Click 'Play Again' to start a new game
+
+open index.html
+3. Enter a 6-letter guess and press 'Enter' or click the 'Submit' button
+4. Continue guessing based on the feedback until you guess the word or run out of attempts
+5. Click 'Play Again' to start a new game
 
 ## Technologies Used
 - HTML
