@@ -30,6 +30,7 @@ cd wordle-copycat
 1. Open the 'index.html' file in your web browser:
 
 open index.html
+
 3. Enter a 6-letter guess and press 'Enter' or click the 'Submit' button
 4. Continue guessing based on the feedback until you guess the word or run out of attempts
 5. Click 'Play Again' to start a new game
